@@ -1,0 +1,78 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+body{
+background: linear-gradient(to bottom, #4776e6, #8e54e9);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  color: white;
+}
+#createBtn{
+  color: white;
+  background-color: #8e54e9;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  cursor: pointer;
+  gap: 1px;
+  width: 10em;
+}
+#createBtn:active{
+  background-color: #4776e6;
+}
+#h2 img{
+  width: 25px;
+  height: 30px;
+}
+h2{
+  display: flex;
+  gap: 3px;
+  font-size: 30px;
+  align-items: center;
+}
+#createBtn img{
+  width: 30px;
+}
+.both{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px 150px;
+}
+.inputBox{
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  min-height: 170px;
+  background-color: white;
+  color: #333;
+  padding: 20px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 20px;
+  text-transform: capitalize;
+  margin: 20px 0;
+}
+.inputBox img{
+  width: 1em;
+  height: 1em;
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .both{
+    padding: 50px 20px;
+  }
+}
